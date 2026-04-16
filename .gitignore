@@ -1,0 +1,44 @@
+# Environment — never commit secrets
+.env
+.env.local
+
+# Logs
+alerts.log
+*.log
+
+# Python
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# hfarmai robot server (auto-cloned by start.py)
+~/unitree-go2-control/
+
+# Downloaded YOLOv8 base models (auto-downloaded by ultralytics)
+yolov8n.pt
+yolov8n-pose.pt
+
+# The custom violence detection model IS tracked — it ships with the repo
+# models/violence_yolov8n.pt  ← intentionally NOT ignored
