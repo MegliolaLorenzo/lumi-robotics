@@ -1,6 +1,23 @@
-# Lumi Robotics
+<p align="center">
+  <img src="assets/logo.svg" alt="Lumi Robotics" width="220"/>
+</p>
 
-Real-time urban safety monitoring powered by a **hybrid computer vision + LLM approach**, running on a Unitree Go2 Pro robot dog.
+<h1 align="center">Lumi Robotics</h1>
+
+<p align="center">
+  Real-time urban safety monitoring powered by a hybrid computer vision + LLM approach,<br/>running on a Unitree Go2 Pro robot dog.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GPT--4o_Vision-OpenAI-412991?style=flat-square&logo=openai&logoColor=white"/>
+  <img src="https://img.shields.io/badge/YOLOv8-Ultralytics-111827?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Unitree_Go2_Pro-robot-222222?style=flat-square"/>
+  <img src="https://img.shields.io/badge/OpenCV-4.8+-5C3EE8?style=flat-square&logo=opencv&logoColor=white"/>
+  <img src="https://img.shields.io/badge/License-MIT-22c55e?style=flat-square"/>
+</p>
+
+<br/>
 
 ![Demo](assets/demo.png)
 
