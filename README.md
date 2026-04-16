@@ -12,7 +12,7 @@ Lumi Robotics is a real-time safety detection system built specifically for the 
 
 The system uses a **hybrid computer vision + LLM approach**: YOLOv8 runs on every frame directly from the Go2's camera feed for fast pose estimation and live visualization, while GPT-4o Vision analyzes buffered sequences of frames to deeply understand the scene context. The two models work in parallel — YOLOv8 for real-time rendering, GPT-4o for accurate behavioral classification. Neither alone would be sufficient: pure computer vision lacks semantic understanding, while an LLM alone is too slow for live streams.
 
-The result is a mobile perception system that turns the Go2 into an intelligent safety monitor — capable of patrolling an area, analyzing what it sees, and generating structured alerts in real time.
+The result is a mobile perception system that turns the Go2 into an intelligent safety monitor — capable of patrolling an area, analyzing what it sees, and generating structured alerts in real time. Every detected event is logged and can be forwarded instantly via webhook to any downstream system: a safety dashboard, a mobile app, or an emergency reporting service.
 
 ---
 
