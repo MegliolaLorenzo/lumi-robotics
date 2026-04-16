@@ -8,11 +8,11 @@ Real-time urban safety monitoring powered by a **hybrid computer vision + LLM ap
 
 ## Overview
 
-Lumi Robotics combines classical computer vision and a multimodal AI agent to analyze live video streams and detect critical situations — starting with aggressive interactions between people.
+Lumi Robotics is a real-time safety detection system built specifically for the **Unitree Go2 Pro** robot dog. The Go2 streams live video as it moves through an environment — Lumi continuously pulls frames from that stream and runs a hybrid AI pipeline on top of them to detect critical situations, starting with aggressive interactions between people.
 
-The core idea is a **hybrid pipeline**: YOLOv8 handles fast, frame-level pose estimation while GPT-4o Vision provides deep scene understanding across temporal sequences of frames. Neither model alone is sufficient — together they achieve both speed and accuracy.
+The system uses a **hybrid computer vision + LLM approach**: YOLOv8 runs on every frame directly from the Go2's camera feed for fast pose estimation and live visualization, while GPT-4o Vision analyzes buffered sequences of frames to deeply understand the scene context. The two models work in parallel — YOLOv8 for real-time rendering, GPT-4o for accurate behavioral classification. Neither alone would be sufficient: pure computer vision lacks semantic understanding, while an LLM alone is too slow for live streams.
 
-Detected events are structured in real time and can be forwarded via webhook to any downstream system — a safety dashboard, an alerting service, or direct reporting infrastructure. The goal is to shift urban safety monitoring from static, reactive data to a dynamic and proactive system.
+The result is a mobile perception system that turns the Go2 into an intelligent safety monitor — capable of patrolling an area, analyzing what it sees, and generating structured alerts in real time.
 
 ---
 
